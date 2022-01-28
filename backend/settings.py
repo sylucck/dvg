@@ -134,7 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #update the settings.py for graphene schema to help translate models into GraphQL
 GRAPHENE = {
   "SCHEMA": "blogpost.schema.schema",
-  "SCHEMA": "ingredients.schema.schema",
+  "SCHEMA": "cookie.schema.schema",
 }
 
 #CORS doesn't exposed the application to be used from anywhere
